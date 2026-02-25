@@ -46,4 +46,4 @@ def search_recipes(budget):
     print(result)
     return result
 
-app.run(host="0.0.0.0", port=5005)
+app.run(host="0.0.0.0", port=8080)
