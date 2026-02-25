@@ -9,7 +9,7 @@ cd "$APP_DIR"
 
 # Pull latest code (rebase is risky in automation; use a clean sync)
 git fetch --all
-git reset --hard origin/main
+git reset --hard origin/A2-recipes-app
 
 # Ensure venv exists
 if [ ! -d ".venv" ]; then
